@@ -1,4 +1,3 @@
-
 import React, { useState,useCallback } from 'react';
 import { Text, SafeAreaView, TextInput, Button } from 'react-native';
 import crashlytics from '@react-native-firebase/crashlytics';
@@ -8,9 +7,8 @@ function GroceryShoppingList() {
   const [items, setItems] = useState([]);
 
   const addNewItemToShoppingList = useCallback(() => {
-    // crashlytics().log('App mounted.');
-    //    crashlytics().crash();
-    //    console.log("test")
+    setItems([groceryItem, ...items]);
+    setGroceryItem('');
   }, [groceryItem, items]);
 
   return (
