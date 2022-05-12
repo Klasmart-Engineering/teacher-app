@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "359355472410",
+    "project_id": "teacher-app-b6de6",
+    "storage_bucket": "teacher-app-b6de6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359355472410:android:df86c1f56e30468ea6cfa3",
+        "android_client_info": {
+          "package_name": "net.kidsloop.teacher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359355472410-0dpab09mdm9mt6se44o7eqejd9p7jfi3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQTXcmC9KmDm4RXMnI_ogkM7SzssildDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359355472410-0dpab09mdm9mt6se44o7eqejd9p7jfi3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
