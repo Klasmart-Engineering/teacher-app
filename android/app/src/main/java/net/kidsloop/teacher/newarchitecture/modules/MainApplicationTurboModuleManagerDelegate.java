@@ -1,4 +1,4 @@
-package com.teacherapp.newarchitecture.modules;
+package net.kidsloop.teacher.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

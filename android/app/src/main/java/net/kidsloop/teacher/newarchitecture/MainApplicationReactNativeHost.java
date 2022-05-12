@@ -1,4 +1,4 @@
-package com.teacherapp.newarchitecture;
+package net.kidsloop.teacher.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.teacherapp.BuildConfig;
-import com.teacherapp.newarchitecture.components.MainComponentsRegistry;
-import com.teacherapp.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import net.kidsloop.teacher.BuildConfig;
+import net.kidsloop.teacher.newarchitecture.components.MainComponentsRegistry;
+import net.kidsloop.teacher.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
