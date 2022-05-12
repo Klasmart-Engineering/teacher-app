@@ -8,9 +8,9 @@ function GroceryShoppingList() {
   const [items, setItems] = useState([]);
 
   const addNewItemToShoppingList = useCallback(() => {
-    crashlytics().log('App mounted.');
-       crashlytics().crash();
-       console.log("test")
+    // crashlytics().log('App mounted.');
+    //    crashlytics().crash();
+    //    console.log("test")
   }, [groceryItem, items]);
 
   return (
