@@ -239,6 +239,7 @@ android {
     }
     buildTypes {
         debug {
+            debuggable true
             signingConfig signingConfigs.debug
         }
         release {
@@ -263,6 +264,15 @@ android {
                         defaultConfig.versionCode * 1000 + versionCodes.get(abi)
             }
 
+        }
+    }
+    flavorDimensions "env"
+    productFlavors {
+        internal {
+            applicationIdSuffix ".internal"
+        }
+        prod {
+            applicationIdSuffix ""
         }
     }
 }
